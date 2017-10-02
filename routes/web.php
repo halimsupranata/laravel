@@ -14,12 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/abc', function () {
-    return view('welcome');
-});
-Route::get('/cde', function () {
-    return view('welcome');
-});
-Route::get('/testreset', function () {
-    return view('welcome');
-});
