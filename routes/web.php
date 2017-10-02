@@ -17,3 +17,6 @@ Route::get('/new', function () {
 Route::get('/abc', function () {
     return view('welcome');
 });
+Route::get('/qwerty', function () {
+    return view('welcome');
+});
