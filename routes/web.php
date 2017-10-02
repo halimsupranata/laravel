@@ -20,3 +20,6 @@ Route::get('/abc', function () {
 Route::get('/abcde', function () {
     return view('welcome');
 });
+Route::get('/new', function () {
+    return view('welcome');
+});
